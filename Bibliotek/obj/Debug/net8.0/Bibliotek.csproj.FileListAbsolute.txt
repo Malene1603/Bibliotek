@@ -1,0 +1,14 @@
+/Users/malenevonwildenradt/RiderProjects/Bibliotek/Bibliotek/bin/Debug/net8.0/Bibliotek
+/Users/malenevonwildenradt/RiderProjects/Bibliotek/Bibliotek/bin/Debug/net8.0/Bibliotek.deps.json
+/Users/malenevonwildenradt/RiderProjects/Bibliotek/Bibliotek/bin/Debug/net8.0/Bibliotek.runtimeconfig.json
+/Users/malenevonwildenradt/RiderProjects/Bibliotek/Bibliotek/bin/Debug/net8.0/Bibliotek.dll
+/Users/malenevonwildenradt/RiderProjects/Bibliotek/Bibliotek/bin/Debug/net8.0/Bibliotek.pdb
+/Users/malenevonwildenradt/RiderProjects/Bibliotek/Bibliotek/obj/Debug/net8.0/Bibliotek.GeneratedMSBuildEditorConfig.editorconfig
+/Users/malenevonwildenradt/RiderProjects/Bibliotek/Bibliotek/obj/Debug/net8.0/Bibliotek.AssemblyInfoInputs.cache
+/Users/malenevonwildenradt/RiderProjects/Bibliotek/Bibliotek/obj/Debug/net8.0/Bibliotek.AssemblyInfo.cs
+/Users/malenevonwildenradt/RiderProjects/Bibliotek/Bibliotek/obj/Debug/net8.0/Bibliotek.csproj.CoreCompileInputs.cache
+/Users/malenevonwildenradt/RiderProjects/Bibliotek/Bibliotek/obj/Debug/net8.0/Bibliotek.dll
+/Users/malenevonwildenradt/RiderProjects/Bibliotek/Bibliotek/obj/Debug/net8.0/refint/Bibliotek.dll
+/Users/malenevonwildenradt/RiderProjects/Bibliotek/Bibliotek/obj/Debug/net8.0/Bibliotek.pdb
+/Users/malenevonwildenradt/RiderProjects/Bibliotek/Bibliotek/obj/Debug/net8.0/Bibliotek.genruntimeconfig.cache
+/Users/malenevonwildenradt/RiderProjects/Bibliotek/Bibliotek/obj/Debug/net8.0/ref/Bibliotek.dll
