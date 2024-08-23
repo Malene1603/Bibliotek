@@ -164,7 +164,7 @@ public class Menu
 
                 if (bookToLend != null)
                 {
-                    if (bookToLend.IsItLend = false)
+                    if (bookToLend.IsItLend == false)
                     {
                         bookToLend.IsItLend = true;
                     
@@ -210,7 +210,7 @@ public class Menu
 
                 if (bookToReturn != null)
                 {
-                    if (bookToReturn.IsItLend = true)
+                    if (bookToReturn.IsItLend == true)
                     {
                         bookToReturn.IsItLend = false;
                     

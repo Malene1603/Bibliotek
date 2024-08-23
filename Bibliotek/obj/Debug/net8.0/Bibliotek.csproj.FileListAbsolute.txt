@@ -12,3 +12,4 @@
 /Users/malenevonwildenradt/RiderProjects/Bibliotek/Bibliotek/obj/Debug/net8.0/Bibliotek.pdb
 /Users/malenevonwildenradt/RiderProjects/Bibliotek/Bibliotek/obj/Debug/net8.0/Bibliotek.genruntimeconfig.cache
 /Users/malenevonwildenradt/RiderProjects/Bibliotek/Bibliotek/obj/Debug/net8.0/ref/Bibliotek.dll
+/Users/malenevonwildenradt/RiderProjects/Bibliotek/Bibliotek/obj/Debug/net8.0/Bibliotek.sourcelink.json
