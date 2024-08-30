@@ -12,7 +12,7 @@ public class Menu
     string filePath = Path.Combine(homePath, "json.json");
     public void RunMenu()
     {
-        Console.WriteLine("Velkommen til biblioteket \n- Enter 1 to add a book \n- Enter 2 to deleta a book \n- Enter 3 to update a book \n- Enter 4 to add a user \n- Enter 5 to delete a user \n- Enter 6 to update a user \n- Enter 7 to lend a book \n- Enter 8 to return a book \n- Enter 9 to exit");
+        Console.WriteLine("Velkommen til biblioteket \n- Enter 1 to add a book \n- Enter 2 to deleta a book \n- Enter 3 to update a book \n- Enter 4 to add a user \n- Enter 5 to delete a user \n- Enter 6 to update a user \n- Enter 7 to lend a book \n- Enter 8 to return a book \n- Enter 9 print a list of all books \n- Enter 10 to print a list of all loaned books \n- Enter 11 to print a list of all books loaned by a user \n- Enter 12 to print a list of all users \n- Enter 13 to exit");
         string input = Console.ReadLine();
         Bookshelf bookshelf = new Bookshelf();
         
@@ -107,7 +107,26 @@ public class Menu
                 RunMenu();
                 break;
             case "9":
-                PrintBook();
+                bookshelf.PrintBooks();
+                RunMenu();
+                break;
+            case "10":
+                bookshelf.PrintLoanedBooks();
+                RunMenu();
+                break;
+            case "11":
+                Console.WriteLine("Enter the Cpr of the user you want to find loaned books for: ");
+                int cpr = Convert.ToInt32(Console.ReadLine());
+                bookshelf.PrintUsersBooks(cpr);
+                RunMenu();
+                break;
+            case "12":
+                userRegister.PrintUsers();
+                RunMenu();
+                break;
+            case "13":
+                Console.WriteLine("Goodbye");
+                Environment.Exit(0);
                 break;
             default:
                 Console.WriteLine("Invalid input");

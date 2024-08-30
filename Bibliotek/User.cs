@@ -10,4 +10,9 @@ public class User
     public string Address { get; set; }
     public string Email { get; set; }
     public int PhoneNumber { get; set; }
+    
+    public override string ToString()
+    {
+        return $"\nCPR: {Cpr} \nName: {Name} \nAddress: {Address} \nEmail: {Email} \nPhone number: {PhoneNumber}\n";
+    }
 }

@@ -23,4 +23,12 @@ public class UserRegister
         context.Users.Update(user);
         context.SaveChanges();
     }
+    
+    public void PrintUsers()
+    {
+        foreach (var user in context.Users)
+        {
+            Console.WriteLine(user.ToString());
+        }
+    }
 }

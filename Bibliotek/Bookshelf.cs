@@ -57,4 +57,28 @@ public class Bookshelf
             Console.WriteLine("Book not found.");
         }
     }
+    
+    public void PrintBooks()
+    {
+        foreach (var book in context.Books)
+        {
+            Console.WriteLine(book.ToString());
+        }
+    }
+    
+    public void PrintLoanedBooks()
+    {
+        foreach (var book in context.Books.Where(b => b.LoanerCPR != 0))
+        {
+            Console.WriteLine(book.ToString());
+        }
+    }
+    
+    public void PrintUsersBooks(int cpr)
+    {
+        foreach (var book in context.Books.Where(b => b.LoanerCPR == cpr))
+        {
+            Console.WriteLine(book.ToString());
+        }
+    }
 }

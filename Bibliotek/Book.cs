@@ -14,6 +14,6 @@ public class Book
 
     public override string ToString()
     {
-        return $"\nTitle: {Title} \nYear: {YearOfPublication} \nAuthor: {Author} \nISBN: {ISBN}";
+        return $"\nTitle: {Title} \nYear: {YearOfPublication} \nAuthor: {Author} \nISBN: {ISBN}\n";
     }
 }
